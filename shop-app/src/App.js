@@ -4,10 +4,10 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import Navbar from "./components/Navbar"
 import ProductLists from "./components/ProductLists"
-import Product from "./components/Product"
 import Details from "./components/Details"
 import Default from "./components/Default"
 import Cart from "./components/Cart"
+import Modal from './components/Modal'
 
 class App extends React.Component{
   render(){
@@ -20,6 +20,7 @@ class App extends React.Component{
         <Route path="/cart" component={Cart}></Route>
         <Route component={Default}></Route>
       </Switch>
+      <Modal />
       </React.Fragment>
     )
   }
