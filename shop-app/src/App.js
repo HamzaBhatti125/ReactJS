@@ -8,6 +8,7 @@ import Details from "./components/Details"
 import Default from "./components/Default"
 import Cart from "./components/Cart"
 import Modal from './components/Modal'
+import Form from './components/Form';
 
 class App extends React.Component{
   render(){
@@ -18,6 +19,7 @@ class App extends React.Component{
         <Route exact path="/" component={ProductLists}></Route>
         <Route path="/details" component={Details}></Route>
         <Route path="/cart" component={Cart}></Route>
+        <Route path="/form" component={Form}></Route>
         <Route component={Default}></Route>
       </Switch>
       <Modal />
