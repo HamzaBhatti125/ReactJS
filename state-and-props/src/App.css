@@ -1,0 +1,52 @@
+h1.head {
+  text-align: center;
+  padding: 150px;
+}
+.box-clr {
+  border: 1px solid;
+  display: inline-block;
+  width: 18%;
+  margin-left: 15px;
+  height: 88px;
+  text-align: center;
+  line-height: 70px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.box{
+  padding-bottom: 40px;
+}
+.green{
+  background-color: green
+}
+.red{
+  background-color: red
+}
+.black{
+  background-color: black
+}
+.brown{
+  background-color: brown
+}
+.white{
+  color: #000;
+}
+h1.head-1 {
+  text-align: center;
+  line-height: 120px;
+}
+.child-1{
+  text-align: center;
+  border: 1px solid;
+  background: grey;
+}
+.child-1-color {
+  padding: 150px;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid;
+}
+.child-2{
+  text-align: center;
+}
